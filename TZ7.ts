@@ -33,16 +33,16 @@ class Storage1 implements IStorage {
  
 }
 class Car implements Vehicle { 
-  model: string;
+  brand: string;
   bodyType: string;
   vehicleClass: string;
 
-  constructor(model: string,bodyType: string, vehicleClass: string) {
-      this.model = model;
+  constructor(brand: string,bodyType: string, vehicleClass: string) {
+      this.brand = brand;
       this.bodyType = bodyType;
       this.vehicleClass = vehicleClass;
   }
-  brand: string;
+  
 
 
   getVehicleDetails(): { bodyType: string; vehicleClass: string } {
