@@ -37,7 +37,7 @@ class Car implements Vehicle {
   bodyType: string;
   vehicleClass: string;
 
-  constructor(model: string, make: string, bodyType: string, vehicleClass: string) {
+  constructor(model: string,bodyType: string, vehicleClass: string) {
       this.model = model;
       this.bodyType = bodyType;
       this.vehicleClass = vehicleClass;
